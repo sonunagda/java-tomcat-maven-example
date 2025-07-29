@@ -41,4 +41,14 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>nexus-snapshot</id>
+    <url>http://172.31.38.109:8081/repository/vprofile-snapshot-repo/</url>
+  </snapshotRepository>
+  <repository>
+    <id>nexus-releases</id>
+    <url>http://172.31.38.109:8081/repository/vprofile-release-repo/</url>
+  </repository>
+</distributionManagement>
 </project>
